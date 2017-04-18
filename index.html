@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcom to sedona</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Голова страницы с присвоением класса main-header-->
+    <header class="main-header">
+        <!--Обьявление класса container для дальнейшей центровки -->
+        <div class="container">
+            <!--создание меню навгации с присвоением класса для дальнейшей стилизации в CSS-->
+            <nav class="main-navigation">
+                <!--Создание ненумерованного списка навигации-->
+                <ul>
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">фото и видео</a></li>
+                    <li><a href="#"><img src="ing/nav.png" width="" height="" alt="cityof sedona"></a></li>
+                    <li><a href="#">Карта штата</a></li>
+                    <li><a href="#">Гостиницы</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Подключение трёх изображений-->
+        <div class="fon">
+            <img src="ing/fon.jpg" width="" height="" alt="Горы">
+        </div>
+        <div class="logo">
+            <img src="ing/logo.png" width="" height="" alt="Добро пожаловать в заповедник SEDONA......">
+        </div>
+        <div class="text">
+            <img src="ing/text.jpg" width="" height="" alt="седона - небольшой городок в Аризоне заслуживающий
+             большего!">
+        </div>
+    </header>
+    <!--Основное тело сайта с присвоением класса container-->
+    <main class="container">
+        <!--первый блок тела сайта с присвоением класса "index-content-1"-->
+        <div class="index-content-1">
+            <!--Блок голубого контейнера и присвоение классов.-->
+            <div class="index-content-1-blue">
+                <b class="index-content-1-title">Настоящий городок</b><br>
+                <p class="index-content-1-text">-№1-<br>
+                 Седона - не аттракцион<br>
+                для туристов, там течёт<br>
+                своя жизнь</p>
+            </div>
+            <div class="index-content-1-img">
+                <img src="img/...jpg">
+            </div>
+        </div>
+        <!--второй блок тела сайта с присвоением класса "index-content-2"-->
+        <div class="index-content-2">
+            <section class="index-content-2-info">
+                <div class="feature-item">
+                    <b class="index-content-2-name">Жильё</b>
+                    <p>Рекомендуем пожить
+                    в настоящем мотеле,
+                    всё как в кино!</p>
+                </div>
+                <div class="features-item">
+                    <b class="index-content-2-name">Еда</b>
+                    <p>Всегда заказывайте
+                    фирменный бургер,
+                    вы не разочаруетесь!</p>
+                </div>
+                <div class="features-item">
+                    <b class="index-content-2-name">Сувениры</b>
+                    <p>Не только китайского,
+                    но и местного
+                    производства!</p>
+                </div>
+            </section>
+        </div>
+
+        <!--третий блок тела сайта с присвоением класса "index-content-1"-->
+        <div class="index-content-1">
+            <!--Вставка изображения отдельным блоком-->
+            <div class="index-content-1-img">
+                <img src="img/...jpg">
+            </div>
+            <!--Блок голубого контейнера и присвоение классов.-->
+            <div class="index-content-1-blue">
+                <b class="index-content-1-title">Там есть мост дьявола</b><br>
+                <p class="index-content-1-text">-№2-<br>
+                    да, по нему можно<br>
+                    пройти! если конечно<br>
+                    вы осмелитесь</p>
+            </div>
+        </div>
+
+        <!--Создание чевёртого блока -->
+        <section class="index-content-4">
+            <div class="index-content-4-block">
+                <b class="features-name4">Небольшая площадь</b>
+                <p>-№3-<br>
+                    Все достопримеча-<br>
+                    тельности находятся<br>
+                    очень близко</p>
+            </div>
+            <div class="index-content-4-block">
+                <b class="features-name4">Красивая дорога</b>
+                <p>-№4-<br>
+                    Ехать в седону из<br>
+                    Лас-Вегаса совсем<br>
+                    не скучно</p>
+            </div>
+            <div class="index-content-4-block">
+                <b class="features-name4">Мало туистов</b>
+                <p>-№5-<br>
+                    Большинство едет в<br>
+                    Гранд каньон и<br>
+                    толпится там</p>
+            </div>
+        </section>
+
+        <div class="form">
+             <div class="form-vopros">
+                <h2>Заинтересовались?</h2>
+                <p>Укажите предпологаемые даты поездки,
+                и мы поможем вам лучшие предложения гостиниц в седоне</p>
+            </div>
+            <div class="poisk-form">
+                Поиск гостиницы в седоне
+            </div>
+            <div class="appointment-form">
+                <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+                    Дата заезда:
+                    <input type="text" name="date" value="" placeholder="Дата заезда"><br>
+                    Дата выезда:
+                    <input type="text" name="date" value="" placeholder="Дата выезда"><br>
+                    <button class="btn" type="submit">Найти</button>
+                </form>
+            </div>
+            <div class="carta">
+                карта
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <section class="footer-hash">
+                <a href="#">#Visitsedona</a><br>
+            </section>
+            <section class="footer-social">
+                <a class="footet-tvit" href="#">Твитер</a>
+                <a class="footer-fb" href="#">Фэйсбук</a>
+                <a class="footer-youtube" href="#">YouTube</a>
+            </section>
+            <section class="footer-copyright">
+                <a class="copir" href="https://htmlacademy.ru">HTML Academy</a>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
